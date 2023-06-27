@@ -9,7 +9,7 @@ anos = int(input('Em quantos anos você vai pagar? '))
 
 parcela = valorCasa / (anos * 12)
 
-print('Para pagar uma casa de R${:.2f} em {} anos a parcela será de R${}\n'.format(valorCasa, anos, parcela ))
+print('Para pagar uma casa de R${:.2f} em {} anos a parcela será de R${}\n'.format(valorCasa, anos, parcela))
 
 if parcela > salario * 0.3:
     print('Sinto muito! A parcela de R${:.2f} excede 30% do seu salário, empréstimo negado.'.format(parcela))
